@@ -1,0 +1,19 @@
+---
+manufacturer: Cisco
+model: 8000-TIC
+part_number: 8000-TIC
+description: Cisco 8000 Series Timing Interface Card (BITS, ToD, 1PPS and 10MHz timing ports)
+comments: '[Cisco 8010 Series Medium Density Fixed Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/networking/sdwan-routers/8000-series/8010-series-mdfr-ds.html)'
+rear-ports:
+  - name: BITS
+    type: 8p8c
+    description: BITS input/output (T1 1.544 MHz / E1 2.048 MHz)
+  - name: ToD
+    type: 8p8c
+    description: Time-of-Day input/output
+  - name: 1PPS
+    type: other
+    description: 1PPS input/output (DIN 1.0/2.3)
+  - name: 10MHz
+    type: other
+    description: 10 MHz frequency input/output (DIN 1.0/2.3)

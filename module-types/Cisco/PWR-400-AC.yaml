@@ -1,0 +1,10 @@
+---
+manufacturer: Cisco
+model: PWR-400-AC
+part_number: PWR-400-AC
+description: Cisco 8010 Series 400W AC power supply module (used by the 8011-4G24Y4H-I)
+comments: '[Cisco 8010 Series Medium Density Fixed Routers Data Sheet](https://www.cisco.com/c/en/us/products/collateral/networking/sdwan-routers/8000-series/8010-series-mdfr-ds.html)'
+power-ports:
+  - name: PS-{module}
+    type: iec-60320-c16
+    maximum_draw: 400
